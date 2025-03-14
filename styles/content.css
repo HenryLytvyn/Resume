@@ -1,0 +1,122 @@
+.content {
+  width: 100%;
+  background-color: var(--main-bg-color);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+}
+
+/* #region ============== Projects ============== */
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.content-title {
+  font-family: var(--second-font);
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: var(--main-color);
+}
+
+.projects-list {
+}
+.project-item {
+  background-color: var(--second-bg-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.project-link {
+}
+
+.thumb {
+  width: 100%;
+  height: 104px;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-text-box {
+  padding: 10px;
+}
+
+.project-title {
+  margin-bottom: 4px;
+}
+
+/* #endregion =========== Projects =========== */
+
+/* #region ============= Experience ============= */
+.experience {
+}
+
+.experience-list {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: var(--second-bg-color);
+}
+
+.experience-item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.pachamama-logo {
+  fill: rgb(1, 86, 1);
+}
+
+.job-img {
+  width: 32px;
+  height: auto;
+}
+
+.experience-item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.experience-company-box {
+}
+.experience-position {
+}
+.experience-company-link {
+}
+.experience-date-box {
+}
+.experience-date {
+  color: #d9dfe8;
+  font-size: 12px;
+  text-align: right;
+}
+.company-address {
+  text-align: right;
+}
+.company-address-link {
+  text-align: center;
+}
+.company-address-icon {
+  margin-right: 3px;
+  vertical-align: top;
+}
+/* #endregion ========== Experience ========== */
+
+/* #region ============= Education ============= */
+/* #endregion ========== Education ========== */

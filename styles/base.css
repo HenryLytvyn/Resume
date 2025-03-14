@@ -1,0 +1,52 @@
+:root {
+  --main-font: "DM Sans", sans-serif;
+  --second-font: "Outfit", sans-serif;
+
+  --main-color: #e2e6ee;
+  --second-color: #acb1c3;
+  /* --third-color:var(--main-color); */
+
+  --main-bg-color: #2e2e48;
+  --second-bg-color: #232339;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  /* cursor: pointer; */
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main {
+  width: 595px;
+  height: 842px;
+  margin: 0 auto;
+  display: flex;
+}
