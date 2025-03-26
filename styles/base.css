@@ -45,8 +45,17 @@ ol {
 }
 
 main {
-  width: 595px;
-  height: 842px;
+  width: 794px;
+  height: 1123px;
   margin: 0 auto;
   display: flex;
 }
+
+/* @media print {
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+  }
+} */
