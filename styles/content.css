@@ -196,15 +196,20 @@
   margin-bottom: 20px;
 }
 
-.study-block-item .item-name {
+/* .study-block-item .item-name {
   text-align: center;
-}
+} */
 
 .study-block-date-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2px;
+}
+
+.not-studied {
+  display: inline;
+  text-align: right;
 }
 
 .done-mark {
