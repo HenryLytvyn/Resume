@@ -16,7 +16,7 @@ h1 {
   font-size: 24px;
   line-height: 125%;
   letter-spacing: -0.02em;
-  color: #e2e6ee;
+  color: var(--main-color);
 
   margin-bottom: 8px;
 }
@@ -42,7 +42,7 @@ h1 {
   font-family: var(--second-font);
   line-height: 133%;
   letter-spacing: 0.02em;
-  color: #d9dfe8;
+  color: var(--second-color);
   margin-bottom: 3px;
 }
 
@@ -51,7 +51,7 @@ h1 {
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.01em;
-  color: #acb1c3;
+  color: var(--second-color);
 }
 
 .double-quotes.turn {
@@ -72,28 +72,22 @@ h1 {
   gap: 8px;
 }
 
+.contact-icon {
+  fill: #ffffff;
+}
+
 .item-name {
   font-weight: 400;
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.01em;
-  color: #acb1c3;
-}
-
-.contact-link {
-  line-height: 129%;
-  color: #d9dfe8;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  text-decoration: underline;
+  color: var(--second-color);
 }
 
 .item-key {
   font-size: 14px;
   line-height: 129%;
-  color: #d9dfe8;
+  color: var(--main-color);
 }
 
 .sidebar-title {
@@ -101,7 +95,7 @@ h1 {
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.01em;
-  color: #acb1c3;
+  color: var(--second-color);
 
   margin-bottom: 16px;
 }
@@ -113,9 +107,5 @@ h1 {
 }
 
 .flag-icon {
-  border: 1px solid #000000;
+  border: 1px solid var(--main-bg-color);
 }
-
-/* .telegram-icon {
-  fill: #1e96c8;
-} */

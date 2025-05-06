@@ -4,7 +4,6 @@
 
   --main-color: #e2e6ee;
   --second-color: #acb1c3;
-  /* --third-color:var(--main-color); */
 
   --main-bg-color: #2e2e48;
   --second-bg-color: #232339;
@@ -59,3 +58,8 @@ main {
     padding: 0;
   }
 } */
+
+.underline-hover:hover,
+.underline-hover:focus {
+  text-decoration: underline;
+}

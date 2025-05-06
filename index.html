@@ -54,7 +54,7 @@
                 </svg>
                 <p class="item-name">Email</p>
               </div>
-              <a href="mailto:hennadii.lytvyn@gmail.com" class="contact-link"
+              <a href="mailto:hennadii.lytvyn@gmail.com" class="item-key"
                 >hennadii.lytvyn@gmail.com</a
               >
             </li>
@@ -65,7 +65,7 @@
                 </svg>
                 <p class="item-name">Phone</p>
               </div>
-              <a href="tel:+447404373041" class="contact-link"
+              <a href="tel:+447404373041" class="item-key"
                 >(+44) 740 437 3041</a
               >
             </li>
@@ -81,13 +81,14 @@
           </ul>
         </section>
 
-        <section class="socials sidebar-section">
-          <h2 class="sidebar-title">Socials</h2>
+        <section class="links sidebar-section">
+          <h2 class="sidebar-title">Links</h2>
           <ul class="sidebar-list">
             <li class="sidebar-item">
               <a
                 href="https://github.com/HenryLytvyn"
-                class="socials-link item-flex"
+                class="sidebar-link item-flex"
+                target="_blank"
                 ><svg class="social-icon" width="24" height="24">
                   <use href="./img/icons.svg#git-logo"></use>
                 </svg>
@@ -97,29 +98,35 @@
                 </div>
               </a>
             </li>
+
+            <!-- linkedin -->
+            <li class="sidebar-item">
+              <a
+                href="https://www.linkedin.com/in/henry-lytvyn/"
+                class="sidebar-link item-flex"
+                target="_blank"
+                ><svg class="social-icon" width="24" height="24">
+                  <use href="./img/icons.svg#linkedin"></use>
+                </svg>
+                <div class="social-box">
+                  <p class="item-name">Linkedin</p>
+                  <p class="item-key">www.linkedin.com/in/<br />henry-lytvyn</p>
+                </div>
+              </a>
+            </li>
+
+            <!-- what's app -->
             <li class="sidebar-item">
               <a
                 href="https://wa.me/447404373041"
-                class="socials-link item-flex"
+                class="sidebar-link item-flex"
+                target="_blank"
                 ><svg class="social-icon" width="24" height="24">
                   <use href="./img/icons.svg#whats_app"></use>
                 </svg>
                 <div class="social-box">
-                  <p class="item-name">Whats App</p>
+                  <p class="item-name">What's App</p>
                   <p class="item-key">(+44) 740 43 73 041</p>
-                </div>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a
-                href="https://www.facebook.com/profile.php?id=100066174245445&locale=en_GB"
-                class="socials-link item-flex"
-                ><svg class="social-icon" width="24" height="24">
-                  <use href="./img/icons.svg#facebook"></use>
-                </svg>
-                <div class="social-box">
-                  <p class="item-name">Facebook</p>
-                  <p class="item-key">Henry Lytvyn</p>
                 </div>
               </a>
             </li>
@@ -181,7 +188,35 @@
             <li class="project-item">
               <a
                 class="project-link"
+                href="https://henrylytvyn.github.io/bitemates-project-js/"
+                target="_blank"
+              >
+                <div class="thumb">
+                  <img
+                    class="project-img"
+                    src="./img/lloyd-jefferson-dark-theme.jpg"
+                    alt="resume"
+                  />
+                </div>
+                <div class="project-text-box">
+                  <div class="project-name">
+                    <p class="item-key project-title">Lloyd Jefferson</p>
+                    <p class="item-name">Educational team project</p>
+                  </div>
+                  <div class="my-work-part">
+                    <p class="item-name">
+                      Participated in the project as a team lead,<br />also
+                      developed the dark theme.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="project-item">
+              <a
+                class="project-link"
                 href="https://nikita2993-z.github.io/project-group-07/index.html"
+                target="_blank"
               >
                 <div class="thumb">
                   <img
@@ -190,16 +225,23 @@
                     alt="watches"
                   />
                 </div>
+
                 <div class="project-text-box">
-                  <p class="item-key project-title">watchcharm</p>
-                  <p class="item-name">Educational team project</p>
+                  <div class="project-name">
+                    <p class="item-key project-title">Watchcharm</p>
+                    <p class="item-name">Educational team project</p>
+                  </div>
+                  <div class="my-work-part">
+                    <p class="item-name">Developed the footer.</p>
+                  </div>
                 </div>
               </a>
             </li>
             <li class="project-item">
               <a
                 class="project-link"
-                href="https://lynohodd.github.io/goit-markup-hw-06/"
+                href="https://henrylytvyn.github.io/goit-markup-hw-06/"
+                target="_blank"
               >
                 <div class="thumb">
                   <img
@@ -208,11 +250,14 @@
                     alt="office table"
                   />
                 </div>
+
                 <div class="project-text-box">
-                  <p class="item-key project-title">WebStudio</p>
-                  <p class="item-name">Educational project</p>
-                </div></a
-              >
+                  <div class="project-name">
+                    <p class="item-key project-title">WebStudio</p>
+                    <p class="item-name">Educational project</p>
+                  </div>
+                </div>
+              </a>
             </li>
           </ul>
         </section>
@@ -233,6 +278,7 @@
                   <a
                     class="experience-company-link item-key"
                     href="https://pachamamaknitwear.com/"
+                    target="_blank"
                     >Pachamama Ltd</a
                   >
                 </div>
@@ -242,6 +288,7 @@
                     <a
                       class="company-address-link"
                       href="https://www.google.com/maps/place/Pachamama/@51.476953,-0.0214129,683m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487602892628d847:0xd5c45a8fe3a92e76!8m2!3d51.4769498!4d-0.016542!16s%2Fg%2F1td6fz1r?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+                      target="_blank"
                       ><svg class="company-address-icon" width="14" height="14">
                         <use href="./img/icons.svg#location"></use>
                       </svg>
@@ -268,6 +315,7 @@
                     <a
                       class="company-address-link"
                       href="https://www.google.com/maps/place/%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD/@51.5287398,-0.2664034,11z/data=!3m1!4b1!4m6!3m5!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862!16zL20vMDRqcGw?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+                      target="_blank"
                       ><svg class="company-address-icon" width="14" height="14">
                         <use href="./img/icons.svg#location"></use>
                       </svg>
@@ -285,6 +333,7 @@
                   <a
                     class="experience-company-link item-key"
                     href="https://agrovektor.com/profile/view/u/30312.html"
+                    target="_blank"
                     >Elevatorspecservice</a
                   >
                 </div>
@@ -294,6 +343,7 @@
                     <a
                       class="company-address-link"
                       href="https://www.google.com/maps/place/%D0%93%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BF%D0%B5%D1%80.,+8,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+65000/@46.4991012,30.7237598,755m/data=!3m2!1e3!4b1!4m6!3m5!1s0x40c631c586203e39:0x15056b1a3cffd432!8m2!3d46.4991012!4d30.7263347!16s%2Fg%2F1tg7qjbz?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+                      target="_blank"
                       ><svg class="company-address-icon" width="14" height="14">
                         <use href="./img/icons.svg#location"></use>
                       </svg>
@@ -330,7 +380,11 @@
             <li class="education-item">
               <div class="education-header">
                 <div class="education-header-left">
-                  <a class="education-link" href="https://www.edu.goit.global/">
+                  <a
+                    class="education-link"
+                    href="https://www.edu.goit.global/"
+                    target="_blank"
+                  >
                     <!-- <svg class="goit-logo" width="36" height="10">
                       <use href="./img/icons.svg#goit-logo"></use>
                     </svg> -->
@@ -360,7 +414,7 @@
                   <p class="item-key">HTML & CSS</p>
                   <div class="study-block-date-box">
                     <svg class="done-mark" width="15" height="15">
-                      <use href="./img/icons.svg#check-mark"></use>
+                      <use href="./img/icons.svg#done-mark"></use>
                     </svg>
                     <p class="item-name">Nov 24-Jan 25</p>
                   </div>
@@ -368,15 +422,18 @@
                 <li class="study-block-item">
                   <p class="item-key">JavaScript</p>
                   <div class="study-block-date-box">
-                    <svg class="in-process-mark" width="15" height="15">
-                      <use href="./img/icons.svg#orange-dot"></use>
+                    <svg class="done-mark" width="15" height="15">
+                      <use href="./img/icons.svg#done-mark"></use>
                     </svg>
                     <p class="item-name">Jan-Apr 25</p>
                   </div>
                 </li>
                 <li class="study-block-item">
                   <p class="item-key">React.js</p>
-                  <div class="study-block-date-box not-studied">
+                  <div class="study-block-date-box">
+                    <svg class="in-process-mark" width="15" height="15">
+                      <use href="./img/icons.svg#orange-dot"></use>
+                    </svg>
                     <p class="item-name">May-Jul 25</p>
                   </div>
                 </li>
@@ -391,7 +448,11 @@
             <li class="education-item">
               <div class="education-header ppi">
                 <div class="education-header-left">
-                  <a class="education-link" href="https://www.edu.goit.global/">
+                  <a
+                    class="education-link"
+                    href="https://www.edu.goit.global/"
+                    target="_blank"
+                  >
                     <img
                       class="goit-logo"
                       itemprop="image"
